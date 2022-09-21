@@ -1,0 +1,129 @@
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+h1,h2,h3,h4,ul{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+body{
+    background-image: url(../img/aguaytia/malecon.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+.bg__body{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+  /* body{
+  } */
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+h3{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+h2{
+    color: #fce800;
+    font-weight: bold;
+    padding-top: 1.5em;
+}
+.carousel img{
+    width: 500px;
+    height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+.title__obra{
+    margin-top: 1.5em;
+}
+
+.title__carousel{
+    margin-top: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+.section-none{
+    display: none;
+}
+
+.primero-title,
+.segundo-title,
+.tercero-title,
+.cuarto-title{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+
+/*****pie de pagina*******/
+.footer{
+    text-align: center;
+    background-color: #5a161e;
+    color: white;
+    margin-top: 1em;
+    padding: 1em 0;
+   }
+   .footer-title{
+    /* color: #fce800; */
+       
+   }
+   .footer-info{
+    /* background-color: red; */
+    margin-bottom: 0;
+   }
+   .footer-enlace{
+     margin-top: 0;
+   }
+   .pie-page{
+       width: 100%;
+   }
+   
+   .footer__icon{
+       padding-top: 0.5em;
+       /* background-color: rgb(0,0,0,0.7); */
+   }
+/****************agregAdo***********/
+

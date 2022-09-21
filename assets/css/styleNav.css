@@ -1,0 +1,58 @@
+
+.position-stic{
+  position: sticky;
+  top: 0px;
+  z-index: 30;
+}
+/* .nav-position{
+  width: 100% !important;
+} */
+.container-nav{
+  /* background-color: rgb(252,232,0,0.4) !important; */
+  background-color: #5a161e !important;
+ 
+}
+.navbar{
+  background-color: rgb(252,232,0,0.4)  !important;
+  background-color: #5a161e  !important;
+
+}
+.navbar-brand{
+ color: rgb(255,255,255);
+ font-size: 25px;
+ font-weight: bold;
+}
+.nav-link{
+ /* padding: 1em 0; */
+ font-size: 20px;
+ font-weight: bold;
+ color: #fce800;
+ /* margin: 0; */
+}
+.nav-link:hover{
+ background-color: rgb(255,255,255,0.7) ;
+}
+.active{
+ background-color: rgb(255,255,255) ;
+}
+
+/*este estilo es para llenar el nav sobrante*/
+.complet-space{
+  /* width: 300px; */
+}
+
+.navbar-toggler-icon {
+  background-color:#fce800 ;
+  /* color: #fce800 !important; */
+}
+.navbar-toggler{
+
+}
+
+@media screen and (max-width:991px){
+  .position-stic{
+    position: initial;
+    
+  }
+  
+}
